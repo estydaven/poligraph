@@ -118,6 +118,9 @@ body {
     height: 57px;
     font-size: 15px;
 }
+.button_methods {
+    height: 79px;
+}
 .button:hover {
     transform: scale(0.95);
 }
@@ -447,4 +450,52 @@ body {
 }
 .tabs__input:checked+.tabs__label {
     border-bottom: 3px solid #F4A82D;
+}
+
+/* METHODS SECTION STYLES */
+.methods {
+    padding: 57px 0 73px 0;
+    background-image: url(../images/bg-method.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.methods__inner {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    margin: 100px 0 60px 0;
+}
+.method {
+    width: calc(100% / 4);
+    padding: 38px 37px 35px 37px;
+    background-color: rgba(217, 217, 217, 0.1);
+    border-radius: 5px;
+}
+.method__image {
+    margin-bottom: 24px;
+}
+.method__text {
+    line-height: 30px;
+}
+.methods__subtitle {
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.methods__title {
+    font-size: 44px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFC403;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.methods__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.methods__text {
+    font-size: 32px;
 }
