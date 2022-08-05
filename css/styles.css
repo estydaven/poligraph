@@ -554,3 +554,20 @@ body {
 .specialist-list {
     line-height: 30px;
 }
+
+/* SERTIFICATES SECTION STYLES */
+.sertificates {
+    padding-bottom: 85px;
+}
+.sertificates__inner {
+    margin-top: 64px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.sertificate__image {
+    width: 306px;
+    height: 433px;
+    object-fit: cover;
+    display: block;
+}
