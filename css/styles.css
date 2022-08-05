@@ -464,7 +464,7 @@ body {
     display: flex;
     justify-content: space-between;
     column-gap: 32px;
-    margin: 100px 0 60px 0;
+    margin: 80px 0 60px 0;
 }
 .method {
     width: calc(100% / 4);
@@ -498,4 +498,59 @@ body {
 }
 .methods__text {
     font-size: 32px;
+}
+
+/* SPECIALISTS SECTION STYLES */
+.specialists {
+    padding: 90px 0 100px 0;
+}
+.specialists__subtitle {
+    margin: 80px 0;
+}
+.specialist {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.specialist:last-child {
+    margin-bottom: 0;
+}
+.specialist__image {
+    position: relative;
+    width: 340px;
+    margin-right: 80px;
+    padding-top: 30px;
+}
+.specialist__image::before {
+    content: '';
+    display: block;
+    width: 279px;
+    height: 283px;
+    background-color: #000000;
+    border: 7px solid #F4A82D;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index: -1;
+}
+.specialist__ava {
+    display: block;
+    margin-left: auto;
+    width: 279px;
+    height: 283px;
+    object-fit: cover;
+    border: 7px solid #F4A82D;
+}
+.specialist__info {
+    width: calc(100% - 420px);
+}
+.specialist__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    max-width: 650px;
+}
+.specialist-list {
+    line-height: 30px;
 }
