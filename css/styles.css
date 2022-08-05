@@ -121,6 +121,10 @@ body {
 .button_methods {
     height: 79px;
 }
+.button_question {
+    font-size: 20px;
+    text-transform: none;
+}
 .button:hover {
     transform: scale(0.95);
 }
@@ -569,5 +573,22 @@ body {
     width: 306px;
     height: 433px;
     object-fit: cover;
+    display: block;
+}
+
+/* QUESTION SECTION STYLES */
+.question {
+    padding: 7px 0 25px 0;
+    background-image: url(../images/bg-question.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.question__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question__image {
     display: block;
 }
