@@ -654,3 +654,37 @@ body {
     align-items: center;
     margin-bottom: 10px;
 }
+
+/* SERVICE SECTION STYLES */
+.service {
+    padding-bottom: 100px;
+}
+.service__inner {
+    margin: 100px 0 70px 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+.service__block {
+    width: calc(100% / 3);
+    padding: 25px 0 25px 30px;
+    border-left: 1px solid #FFC403;
+}
+.service__head {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+}
+.service__head_text {
+    max-width: 900px;
+}
+.service__text {
+    margin-top: 20px;
+    line-height: 30px;
+}
+.service__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
