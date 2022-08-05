@@ -688,3 +688,90 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+/* PRICE SECTION STYLES */
+.price {
+    padding-bottom: 100px;
+}
+.price__inner {
+    margin: 80px 0 30px 0;    
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.price-block {
+    position: relative;
+    padding: 30px 15px 24px 35px;
+    width: calc(100% / 3);
+    min-height: 325px;
+    background-color: rgb(217, 217, 217, 0.1);
+    border-radius: 20px;
+}
+.price-block__title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+    margin-bottom: 20px;
+}
+.price-block__text {
+    line-height: 30px;
+}
+.cost {
+    position: absolute;
+    right: 15px;
+    bottom: 24px;
+    color: #FFC403;    
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+}
+.cost::before {
+    content: '';
+    display: block;
+    width: 59px;
+    height: 7px;
+    background-color: #D9D9D9;
+    position: absolute;
+    left: -80px;
+    top: 17px;
+}
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    line-height: 30px;
+}
+.price__text_mrg {
+    margin-bottom: 30px;
+}
+.span-price {
+    font-weight: 700;
+}
+.span-price_upper {
+    text-transform: uppercase;
+}
+.form_price {
+    width: 100%;
+    padding: 62px 10px 44px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__field_price {
+    margin-right: 35px;
+    margin-bottom: 0;
+}
+.form__field_price:last-child {
+    margin-bottom: 0;
+}
+.privacy_price {
+    width: 80%;
+    margin: 33px auto 0;
+}
