@@ -1460,6 +1460,7 @@ body {
     }
     .wrapper {
         padding: 25px 0;
+        min-height: auto;
     }
     .about__inner {
         flex-direction: column;
@@ -2546,6 +2547,14 @@ body {
 @media (max-width: 420px) {
     .question__inner {
         min-height: 430px;
+    }
+}
+@media (max-width: 395px) {
+    .slider__arrow_next {
+        right: 120px;
+    }
+    .slider__arrow_prev {
+        left: 120px;
     }
 }
 @media (max-width: 380px) {
