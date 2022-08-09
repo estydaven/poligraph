@@ -16,21 +16,21 @@
             <div class="header__inner container">
                 <img src="images/icons/logo.svg" alt="" class="header__logo">
                 <div class="header__info">
-                    <p class="header__text">Детектор лжи при приёме на <span class="header__span">работу в Москве и
+                    <p class="header__text header__text_mob">Детектор лжи при приёме на <span class="header__span">работу в Москве и
                             МО</span></p>
-                    <p class="header__text">Режим работы: <span class="header__span header__span_bold">пн – пт с 9.00 до
+                    <p class="header__text header__text_hiden">Режим работы: <span class="header__span header__span_bold">пн – пт с 9.00 до
                             18.00</span></p>
                     <div class="header__block">
                         <img src="images/icons/email-ico.svg" alt="" class="header__icon">
                         <p class="header__text">E-mail: <a href="mailto:info@tr-lie.ru"
                                 class="header__span header__span_bold">info@tr-lie.ru</a></p>
                     </div>
-                    <div class="header__block">
+                    <div class="header__block header__block_mob">
                         <img src="images/icons/phone-ico.svg" alt="" class="header__icon">
                         <p class="header__text">Телефон: <a href="tel:79365555885"
                                 class="header__span header__span_bold">+7 (936) 555–58–85</a></p>
                     </div>
-                    <button class="button button_header">Обратный звонок</button>
+                    <a href="#form" class="button button_header">Обратный звонок</a>
                 </div>
             </div>
             <nav class="nav">
@@ -64,14 +64,14 @@
                             <li class="hero-list__item">Дополнительная и неожиданная экономия на ФОТ</li>
                         </ul>
                     </div>
-                    <div class="hero__form">
-                        <form action="" method="post" class="form">
+                    <div class="hero__form" id="form">
+                        <form action="" method="post" class="form form_main">
                             <h3 class="form__title">Проще обсудить всё по телефону, чем читать – перезвоните!</h3>
                             <fieldset>
                                 <input type="text" class="form__field" placeholder="Ваше имя">
                                 <input type="tel" class="form__field" placeholder="Ваш телефон">
                             </fieldset>
-                            <button class="button" type="submit">Жду звонка</button>
+                            <button class="button button_mobile" type="submit">Жду звонка</button>
                             <div class="privacy">
                                 <div class="privacy__checkbox">
                                     <input type="checkbox" class="checkbox" id="checkbox" name="checkbox" value="1">
@@ -137,7 +137,7 @@
                         производительность труда, разовьёте бизнес и получите весомое конкурентное преимущество.</p>
                 </div>
             </div>
-            <h2 class="main-title">Достоверность выше на 9%</h2>
+            <h2 class="main-title main-title_pdn">Достоверность выше на 9%</h2>
             <p class="about__subtitle">Вся процедура занимает 1,5—3 часа. <span class="about__span">Проводится с
                     использованием аудио и видеофиксации</span></p>
         </div>
@@ -191,7 +191,7 @@
     </section>
     <section class="methods">
         <div class="container">
-            <h2 class="main-title">Мы активно применяем</h2>
+            <h2 class="main-title main-title_pdn">Мы активно применяем</h2>
             <div class="methods__inner">
                 <div class="method">
                     <img src="images/icons/method-ico-1.svg" alt="" class="method__image">
@@ -214,13 +214,13 @@
             <p class="methods__title">Заполните небольшую анкету о Вашей компании (всего за 1 минуту) и вы бесплатно получите список подходящих вопросов. Ну, а дальше Вы уже сами решите...</p>
             <div class="methods__footer">
                 <p class="methods__text">Получить вопросы по 11 темам скрининга персонала</p>
-                <button class="button button_methods">Получить</button>
+                <a href="#form" class="button button_methods">Получить</a>
             </div>
         </div>
     </section>
     <section class="specialists" id="specialists">
         <div class="container">
-            <h2 class="main-title">Силовики обучаются у нас</h2>
+            <h2 class="main-title main-title_pdn">Силовики обучаются у нас</h2>
             <p class="specialists__subtitle">Единственно верного признака лжи нет. Понять, что вызвало реакцию на вопрос – ложь, волнение или особенности темперамента – может только эксперт-полиграфолог с высокими навыками профайлера (невербальный бесконтактный способ выявления обмана) и знаниями психофизиологии. Поэтому в нашей команде работают Лучшие Из Лучших:</p>
             <div class="specialists__inner">
                 <div class="specialist">
@@ -262,7 +262,7 @@
     </section>
     <section class="sertificates">
         <div class="container">
-            <h2 class="main-title">Сертификаты</h2>
+            <h2 class="main-title main-title_pdn">Сертификаты</h2>
             <div class="sertificates__inner">
                 <img src="images/sert.jpg" alt="" class="sertificate__image">
                 <img src="images/sert.jpg" alt="" class="sertificate__image">
@@ -276,13 +276,13 @@
             <div class="question__inner">
                 <img src="images/man.png" alt="" class="question__image">
                 <div class="question__form">
-                    <form action="" method="post" class="form">
+                    <form action="" method="post" class="form form_main">
                         <h3 class="form__title">Задайте вопрос специалисту и получите исчерпывающий ответ</h3>
                         <fieldset>
                             <input type="text" class="form__field" placeholder="Ваше имя">
                             <input type="tel" class="form__field" placeholder="Ваш телефон">
                         </fieldset>
-                        <button class="button button_question" type="submit">Получить консультацию</button>
+                        <button class="button button_question button_mob" type="submit">Получить консультацию</button>
                         <div class="privacy">
                             <div class="privacy__checkbox">
                                 <input type="checkbox" class="checkbox" id="checkbox2" name="checkbox" value="1">
@@ -307,7 +307,7 @@
                             <input type="text" class="form__field" placeholder="Ваше имя">
                             <input type="tel" class="form__field" placeholder="Ваш телефон">
                         </fieldset>
-                        <button class="button button_question" type="submit">Получить подарок</button>
+                        <button class="button button_question button_mob" type="submit">Получить подарок</button>
                         <div class="privacy">
                             <div class="privacy__checkbox">
                                 <input type="checkbox" class="checkbox" id="checkbox3" name="checkbox" value="1">
@@ -320,11 +320,11 @@
                     </form>
                 </div>
                 <div class="profit__block">
-                    <h2 class="main-title">Хотите получить в подарок</h2>
+                    <h2 class="main-title main-title_pdn">Хотите получить в подарок</h2>
                     <p class="profit__subtitle">психологический портрет испытуемого стоимостью 1000 руб.?</p>
                     <p class="profit__text">Информация о характере и вероятных моделях поведения кандидата поможет Вам принять взвешенное решение, насколько комфортно с ним будет работать. Ведь можно быть отличным специалистом и тяжелой конфликтной личностью, саботирующим работу.</p>
                     <p class="profit__text">Таким образом Вы заранее избежите напряжённой обстановки в коллективе, систематического простоя в работе и упущения выгоды.</p>
-                    <p class="profit__subtitle profit__subtitle_second">Тогда закажите услугу СЕГОДНЯ до 23.00</p>
+                    <p class="profit__subtitle profit__subtitle_second">Тогда закажите услугу СКОРЕЕ!</p>
                     <div class="timer">
                         <p class="timer__text">Осталось</p>
                         <div class="timer__inner">
@@ -348,7 +348,7 @@
     </section>
     <section class="service">
         <div class="container">
-            <h2 class="main-title">Оцените наш сервис</h2>
+            <h2 class="main-title main-title_pdn">Оцените наш сервис</h2>
             <div class="service__inner">
                 <div class="service__block">
                     <p class="service__head">Экономите на ФОТ</p>
@@ -376,13 +376,13 @@
             </div>
             <div class="service__wrap">
                 <p class="service__head service__head_text">Позвоните нам по тел. 7 (936) 555–58–85 или заполните форму, мы обсудим вашу задачу и предложим оптимальный вариант решения</p>
-                <button class="button">Жду звонка</button>
+                <a href="#form" class="button button_mobile">Жду звонка</a>
             </div>
         </div>
     </section>
     <section class="price">
         <div class="container">
-            <h2 class="main-title">Стоимость проверки на полиграфе</h2>
+            <h2 class="main-title main-title_pdn">Стоимость проверки на полиграфе</h2>
             <div class="price__inner">
                 <div class="price-block">
                     <p class="price-block__title">Линейный персонал:</p>
@@ -417,7 +417,7 @@
                         <input type="text" class="form__field form__field_price" placeholder="Ваше имя">
                         <input type="tel" class="form__field form__field_price" placeholder="Ваш телефон">
                     </fieldset>
-                    <button class="button button_question" type="submit">Заказать проверку</button>
+                    <button class="button button_question button_mob" type="submit">Заказать проверку</button>
                     <div class="privacy privacy_price">
                         <div class="privacy__checkbox">
                             <input type="checkbox" class="checkbox" id="checkbox4" name="checkbox" value="1">
@@ -431,7 +431,7 @@
     </section>
     <section class="company" id="company">
         <div class="container">
-            <h2 class="main-title">О компании</h2>
+            <h2 class="main-title main-title_pdn">О компании</h2>
             <div class="company__inner">
                 <div class="company__block">
                     <p class="company__text">Мы – единственные, кто использует собственные современные методики и технологии распознавания лжи.</p>
@@ -459,7 +459,7 @@
                             <input type="text" class="form__field form__field_price" placeholder="Ваше имя">
                             <input type="tel" class="form__field form__field_price" placeholder="Ваш телефон">
                         </fieldset>
-                        <button class="button button_question" type="submit">Заказать проверку</button>
+                        <button class="button button_question button_mob" type="submit">Заказать проверку</button>
                     </div>
                     <div class="privacy privacy_price">
                         <div class="privacy__checkbox">
@@ -474,7 +474,7 @@
     </section>
     <section class="reviews" id="cases">
         <div class="container">
-            <h2 class="main-title">Истории наших клиентов</h2>
+            <h2 class="main-title main-title_pdn">Истории наших клиентов</h2>
             <p class="reviews__subtitle">Вы не увидите здесь парад названий и логотипов, <span class="reviews__span">потому что мы уважаем ваше право на конфиденциальность</span></p>
             <div class="slider">
                 <div class="slider__review">
@@ -510,7 +510,7 @@
     </section>
     <section class="work" id="work">
         <div class="container">
-            <h2 class="main-title">Как мы работаем</h2>
+            <h2 class="main-title main-title_pdn">Как мы работаем</h2>
             <div class="work__inner">
                 <ul class="work-list">
                     <li class="work-list__item">
@@ -539,7 +539,7 @@
                     </li>
                 </ul>
                 <div class="work__button">
-                    <button class="button button_question" type="submit">Заказать проверку</button>
+                    <a href="#form" class="button button_question button_mob button_work">Заказать проверку</a>
                 </div>
             </div>
         </div>
@@ -549,8 +549,8 @@
             <div class="footer__inner">
                 <div class="footer__block footer__block_first">
                     <img src="images/icons/logo.svg" alt="" class="footer__logo">
-                    <p class="footer__info">ООО «Трансформация лжи» <span class="footer__span">Детектор лжи при приёме на работу в Москве и МО</span></p>
-                    <div class="footer__text">2022 © Все права защищены.</div>
+                    <p class="footer__info footer__info_desk">ООО «Трансформация лжи» <span class="footer__span">Детектор лжи при приёме на работу в Москве и МО</span></p>
+                    <div class="footer__text footer__text_desk">2022 © Все права защищены.</div>
                 </div>
                 <div class="footer__block footer__block_second">
                     <p class="footer__head">Другие услуги:</p>
@@ -559,7 +559,7 @@
                         <li class="footer-list__item">Услуга 2</li>
                         <li class="footer-list__item">Услуга 3</li>
                     </ul>
-                    <p class="footer__rekv">Инн <span class="footer__span">Огрн</span></p>
+                    <p class="footer__rekv footer__rekv_desk">Инн <span class="footer__span">Огрн</span></p>
                 </div>
                 <div class="footer__block footer__block_second">
                     <p class="footer__head">Адрес:</p>
@@ -581,6 +581,11 @@
                         <a href="" class="footer-privacy__link">Политика конфиденциальности</a>
                         <a href="" class="footer-privacy__link">Обработка персональных данных</a>
                     </p>
+                </div>
+                <div class="footer__mob">
+                    <p class="footer__info">ООО «Трансформация лжи» <span class="footer__span">Детектор лжи при приёме на работу в Москве и МО</span></p>
+                    <p class="footer__rekv">Инн <span class="footer__span">Огрн</span></p>
+                    <div class="footer__text">2022 © Все права защищены.</div>
                 </div>
             </div>
         </div>
