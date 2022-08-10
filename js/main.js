@@ -1,3 +1,35 @@
+// Mobile menu
+
+const menuMobile = document.querySelector('.nav');
+const burger = document.querySelector('.burger');
+
+function toggleMenu() {
+  menuMobile.classList.toggle('nav_active');
+    burger.classList.toggle('burger_active');
+}
+
+burger.addEventListener('click', toggleMenu);
+menuMobile.addEventListener('click', toggleMenu);
+
+// Change bg-color menu in scroll
+
+const menu = document.querySelector('.nav');
+
+function scrollMenu() {
+    if (window.pageYOffset > 50) {
+      menu.style.backgroundColor = '#000000';
+      menu.style.top = '0';
+      menu.style.paddingTop = '30px';
+    }
+    else {
+      menu.style.backgroundColor = 'transparent';
+      menu.style.top = '130px';
+      menu.style.paddingTop = '0';
+    }
+}
+
+window.addEventListener('scroll', scrollMenu);
+
 // Slider script
 
 $(document).ready(function(){
@@ -61,3 +93,21 @@ function initializeClock(id, endtime) {
  
 var deadline = new Date(Date.parse(new Date()) + 5 * 60 * 60 * 1000);
 initializeClock('countdown', deadline);
+
+// Accordion
+
+var accordion = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}

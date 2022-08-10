@@ -38,16 +38,22 @@
             <nav class="nav">
                 <div class="container">
                     <ul class="menu-list">
+                        <li class="menu-list__item"><a href="#" class="menu-list__link">Главная</a></li>
                         <li class="menu-list__item"><a href="#about" class="menu-list__link">Об услуге</a></li>
                         <li class="menu-list__item"><a href="#specialists" class="menu-list__link">Специалисты</a></li>
-                        <li class="menu-list__item"><a href="#profits" class="menu-list__link">Выгоды и преимущества</a>
-                        </li>
+                        <li class="menu-list__item"><a href="#profits" class="menu-list__link">Выгоды и преимущества</a></li>
+                        <li class="menu-list__item"><a href="#price" class="menu-list__link">Цены</a></li>
                         <li class="menu-list__item"><a href="#company" class="menu-list__link">О компании</a></li>
                         <li class="menu-list__item"><a href="#cases" class="menu-list__link">Кейсы</a></li>
                         <li class="menu-list__item"><a href="#work" class="menu-list__link">Схема работы</a></li>
                     </ul>
                 </div>
             </nav>
+            <div class="burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </div>
         </header>
         <section class="hero">
             <div class="container">
@@ -131,12 +137,7 @@
                     <img src="images/image-1.png" alt="" class="about__image">
                 </div>
                 <div class="about__info">
-                    <p class="about__text">По статистике, более 50% резюме содержат ложные данные. Компания «___» с 2013
-                        г.
-                        проводит проверки на детекторе лжи и помогает бизнесу заранее отсеять некомпетентных,
-                        подозрительных
-                        и конфликтных кандидатов. И вместо них принять на работу честных и самостоятельных
-                        профессионалов.
+                    <p class="about__text">По статистике, более 50% резюме содержат ложные данные. Компания  проводит проверки на детекторе лжи и помогает бизнесу заранее отсеять некомпетентных, подозрительных и конфликтных кандидатов. И вместо них принять на работу честных и самостоятельных профессионалов.
                     </p>
                     <p class="about__text">С ними вы будете спокойны за репутацию и безопасность компании. Повысите
                         производительность труда, разовьёте бизнес и получите весомое конкурентное преимущество.</p>
@@ -186,20 +187,12 @@
                             <div class="tabs__inner">
                                 <div class="tabs__info">
                                     <ul class="tabs-list">
-                                        <li class="tabs-list__item">1. Полиграфолог прибывает в Ваш офис (бесплатно в
-                                            пределах МКАД).</li>
-                                        <li class="tabs-list__item">2. Подробно консультирует по этапам проведения
-                                            проверки на полиграфе.</li>
-                                        <li class="tabs-list__item">3. Согласовывает вопросы для скрининга персонала по
-                                            11 темам с учётом специфики Вашего бизнеса. Правильно их формулирует, чтобы
-                                            получить более точный результат.</li>
-                                        <li class="tabs-list__item">4. Проводит предтестовую беседу с проверяемым по
-                                            авторской методике. Отмечает, где он ведёт себя неадекватно и подозрительно,
-                                            чтобы ударить точечными вопросами и вытащить из него всю правду во время
-                                            проверки.</li>
-                                        <li class="tabs-list__item">5. Настраивает оборудование таким образом, что
-                                            волнение испытуемого не повлияет на достоверность исследования.</li>
+                                        <li class="tabs-list__item">1. Полиграфолог проверяет кандидата на детекторе лжи «Триумф-2». Он фиксирует более 50 реакций организма и активно применяется в США и Европе.</li>
+                                        <li class="tabs-list__item">2. Проводит аналитику полиграммы (компьютерная и вручную).</li>
+                                        <li class="tabs-list__item">3. Сообщает Заказчику результат теста на полиграфе сразу по его завершению.</li>
+                                        <li class="tabs-list__item">Вы получаете письменный отчет на руки или электронную почту в течение 2 часов.</li>
                                     </ul>
+                                    <p class="tabs__text">* Согласно договору, все результаты исследования строго конфиденциальны, доступ третьих лиц исключен (значок Гарантии).</p>
                                 </div>
                                 <div class="image-wrapper">
                                     <img src="images/image-2.png" alt="" class="tabs__image">
@@ -398,27 +391,32 @@
             <h2 class="main-title main-title_pdn">Оцените наш сервис</h2>
             <div class="service__inner">
                 <div class="service__block">
-                    <p class="service__head">Экономите на ФОТ</p>
-                    <p class="service__text">Мы выясним желаемый уровень зарплаты, и вы сможете скорректировать
-                        предложение по окладу. Например, на должность бухгалтера предусмотрено 120 000 руб./мес., а
+                    <div class="accordion">
+                        <p class="service__head">Экономите на ФОТ</p>
+                        <p class="service__text">Мы выясним желаемый уровень зарплаты, и вы сможете скорректировать <span class="more">Читать далее</span></p>
+                    </div>
+                    <p class="service__text accordion__panel"> предложение по окладу. Например, на должность бухгалтера предусмотрено 120 000 руб./мес., а
                         Ольга готова добросовестно работать за 100 000 руб./мес. За год вы экономите 20 000*12=240 000
                         руб. А если таких сотрудников несколько, то экономия достигает миллионов рублей. Просто
-                        подумайте, как вы используете эти деньги для развития своего бизнеса или повышения уровня жизни
-                        семьи?</p>
+                        подумайте, как вы используете эти деньги для развития своего бизнеса или повышения уровня жизни семьи?</p>
                 </div>
                 <div class="service__block">
-                    <p class="service__head">Без бюрократии</p>
-                    <p class="service__text">Сопровождаем клиента от первого звонка до выдачи заключения</p>
-                    <ul class="service__list">
+                    <div class="accordion">
+                        <p class="service__head">Без бюрократии</p>
+                        <p class="service__text">Сопровождаем клиента от первого звонка до выдачи заключения <span class="more">Читать далее</span></p>
+                    </div>
+                    <ul class="service__list accordion__panel">
                         <li>• Решаем любые организационные вопросы по телефону</li>
                         <li>• Проводим проверки на полиграфе в нерабочее время</li>
                         <li>• Электронный документооборот</li>
                     </ul>
                 </div>
                 <div class="service__block">
-                    <p class="service__head">Но и это ещё не всё...</p>
-                    <ul class="service__list">
-                        <li>• Выезжаем в офис на проверку даже 1 кандидата</li>
+                    <div class="accordion">
+                        <p class="service__head">Но и это ещё не всё...</p>
+                        <p class="service__text">• Выезжаем в офис на проверку даже 1 кандидата <span class="more">Читать далее</span></p>
+                    </div>
+                    <ul class="service__list accordion__panel">
                         <li>• Ресурсы для скрининга до 10 человек в день</li>
                         <li>• Рекорд: 2000+ проверенных в ГК «Самолёт»</li>
                         <li>• У вас в офисе или в нашем специально оборудованном помещении</li>
@@ -434,7 +432,7 @@
             </div>
         </div>
     </section>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <h2 class="main-title main-title_pdn">Стоимость проверки на полиграфе</h2>
             <div class="price__inner">
